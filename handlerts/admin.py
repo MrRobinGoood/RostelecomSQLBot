@@ -40,6 +40,7 @@ def create_sql_query(text, columns_names, table_name):
     names_dict['date_part'] = None
     names_dict['order'] = None
     names_dict['where'] = None
+    names_dict['distinct'] = None
 
     copy_lemma_tokens = lemma_tokens
 
